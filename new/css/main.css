@@ -1,0 +1,351 @@
+ /*Max Studio Employee Management System Main Style Sheet*/
+
+/*General Styles Start*/
+
+* a{
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullWidthButton{
+    width: 100%;
+}
+.marginTop10px{
+    margin-top: 10px;
+}
+.marginBottom10px{
+    margin-bottom: 10px;
+}
+.marginTop30px{
+    margin-top: 30px;
+}
+.available{
+    color:deepskyblue;
+}
+.textAlignRight{
+    text-align: right;
+}
+.textAlignLeft{
+    text-align: left;
+}
+.redFonts{
+    color:red;
+}
+.blueFonts{
+    color:deepskyblue;
+}
+.active{
+    color: greenyellow;
+}
+.visibilityHidden{
+    visibility: hidden;
+}
+.hideDiv{
+    display: none;
+}
+.unhideDiv{
+    display: block;
+}
+.printPage img{
+    width:10%;
+}
+.printDiv{
+    font-size:10px ;
+    letter-spacing: 1px;
+    line-height:1.5px;
+    color: black;
+}
+.printDiv table{
+    border: 0;
+}
+.marginTop10px{
+    margin-top: 10px;
+}
+.marginTop40px{
+    margin-top: 40px;
+}
+.signature td{
+    padding-right: 10px;
+}
+
+/*General Styles End*/
+/*Home page start*/
+ .Mainlinks{
+     background-color:midnightblue;
+ }
+ .Mainlinks ul li{
+     display: inline;
+     padding: 0 10px;
+     border-right: 1px solid white;
+ }
+ .Mainlinks ul li a{
+     color: white;
+     text-decoration:none;
+     font-weight: bold;
+ }
+ .Mainlinks ul{
+     margin: 15px;
+     float: right;
+ }
+ .Mainlinks ul li:last-child{
+     border: none;
+ }
+ .Mainlinks ul li a:hover{
+     color: red;
+ }
+ /*Home page end*/
+/*loginDiv Styles Start*/
+.login{
+    color:white;
+    padding: 50px;
+    background-image: url("../images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.loginImage img{
+    width: 60%;
+    margin-left:160px;
+}
+.loginImage img:hover{
+    opacity:0.8;
+}
+.inputDiv{
+    /*margin-top: 50px;*/
+}
+/*loginDiv Styles End*/
+
+/*Links Styles Start*/
+
+.links ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+.links ul li{
+    display: inline-block;
+}
+.links ul li a{
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.links ul li a:hover{
+    transition-property: color;
+    transition-duration: 500ms;
+    color: red;
+}
+.error{
+    position: relative;
+    z-index: 100;
+    font-weight: bolder;
+    color: red;
+    padding: 10px;
+}
+.info{
+    font-weight: bolder;
+    color: greenyellow;
+    padding: 10px;
+}
+/*Links Styles End*/
+
+/*logoDiv Styles Start*/
+.logoDiv img{
+    width: 40%;
+}
+/*logoDiv Styles End*/
+/*logOut div Styles*/
+.logOut a{
+    text-decoration: none;
+}
+.logOut a:hover{
+    transition-property: color;
+    transition-duration: 500ms;
+    color: red;
+}
+.logOut img{
+    width: 5%;
+}
+/*logOut div Styles End*/
+
+/*navigationBar Styles Start*/
+.navigationBar{
+     background-image: url("../images/menu-low.jpg");
+     background-repeat: repeat-x;
+}
+.navigationBar h6{
+    color:white;
+}
+ .MaxName{
+     font-family:Anger;
+     color: white;
+ }
+/*navigationBar Styles End*/
+
+
+/*userTable Styles Start*/
+.userTable th {
+    width: 30px;
+}
+.userTable tr:hover{
+    background-color:black;
+    color: white;
+}
+/*userTable Styles End*/
+
+/*categorySelectForm Styles Start*/
+.categorySelectForm{
+    margin-left: 170px;
+}
+/*categorySelectForm Styles End*/
+
+/*infoDiv styles Start*/
+.infoDiv{
+    margin-left:500px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 100;
+    opacity: .8;
+    width: 500px;
+    height: 200px;
+}
+/*infoDiv styles End*/
+
+/*adminDiv Styles Start*/
+.adminDiv{
+    background-color: ghostwhite;
+    margin-left: -15px;
+    color: black;
+}
+.adminDiv a{
+    color: black;
+    text-decoration: none;
+}
+.adminDiv img{
+    width: 20%;
+}
+/*adminDiv Styles End*/
+
+
+/*billTable styles Start*/
+.billTable table{
+    width: 100%;
+    padding: 0;
+}
+.billTable tr:hover{
+    background-color:black;
+    color: white;
+}
+.billTable td{
+
+}
+/*billTable styles End*/
+
+/*mainDiv Styles Start*/
+.mainDiv{
+    background-color: ghostwhite;
+    margin-left: -15px;
+    color: black;
+}
+/*mainDiv Styles End*/
+
+.pageCredits{
+    font-family:"SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 10px;
+    font-weight:bold;
+}
+
+/*footer Styles Start*/
+.footer{
+    background-image: url("../images/menu-low.jpg");
+    color: white;
+}
+/*footer Styles End*/
+
+/*Media Queries for Mmblie device optimazation*/
+
+@media all and (max-width: 768px) {
+    .row   {
+        padding: 0;
+    }
+    .login{
+        margin: 0;
+        padding: 0;
+        background-repeat: repeat;
+        padding-top:10px;
+        padding-bottom: 100px;
+
+    }
+    .login form{
+        width: 100%;
+    }
+    .loginImage{
+        display: none;
+    }
+    .inputDiv{
+        width: 300px;
+        padding: 0;
+    }
+    .inputDiv input{
+        width: 100%;
+    }
+    .navigationBar{
+        width: 100%;
+    }
+    .logoDiv{
+        display: none;
+    }
+    .content{
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .links{
+        margin-top: 0;
+    }
+    .mainDiv{
+        margin-top: 0;
+    }
+    .content button{
+        margin-top: 10px;
+    }
+    .content h5,h6,th,td,a{
+        font-size: 13px;
+    }
+    form .textAlignRight{
+        text-align: left;
+    }
+    .mobile{
+        display: none;
+    }
+    .billTable{
+        width: 160px;
+        margin-left: -20px;
+    }
+    .billTable td,th{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .adminDiv div{
+        margin-top: 10px;
+    }
+    .adminDiv h4{
+        font-size: 12px;
+    }
+    .pageCredits{
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    .footer{
+        /*display: none;*/
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer p{
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+}
+

@@ -1,0 +1,44 @@
+/*Max Studio Employee Management System Print Page Style Sheet*/
+
+*{
+    margin: 0;
+}
+.printPage img{
+    width:20%;
+}
+.printDiv{
+    font-size:10px ;
+    letter-spacing: 1px;
+    line-height:1.5px;
+    color: black;
+}
+.printDiv table{
+    border: 0;
+}
+.marginTop10px{
+    margin-top: 10px;
+}
+.marginTop40px{
+    margin-top: 40px;
+}
+.marginTop50px{
+    margin-top: 50px;
+}
+.marginTop70px{
+    margin-top: 70px;
+}
+.signature td{
+    padding-right: 10px;
+}
+.printHeading{
+    margin-top: -70px;
+}
+.textAlignRight{
+    text-align: right;
+}
+.textAlignLeft{
+    text-align: left;
+}
+@page {
+    size: A5 portrait;
+}
